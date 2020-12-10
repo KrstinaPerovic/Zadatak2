@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>Najbolje PIZZEE</title>
+                <link rel="icon" href="images/logo.png" type="image/png" sizes="16x16">
+                <link rel="stylesheet" href="css/style.css">          
+                <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+                <script src="js/main.js"></script>      
+            </head>
+<body>
+        <div class="top-nav">
+                <div class="logo"><img src="images/logo.png" style="width:60px;height:60px;"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="home.html">Početna</a></li>  
+                        <li><a class="active" href="#">Pizze</a></li>  
+                        <li><a href="aboutUs.html">Lokacije <i class='icon'></i><i class='icon'></i><i class='icon'></i><i class='icon'></i></a></li>
+                        <li><a href="contactUs.html">Naruči</a></li>          
+                    </ul>
+                </div>
+            </div>
+            <div class="headline">
+                    <br>
+                    <br>                            
+            <div class="container">   
+                <br>
+                <div class="slider-outer">
+                  <img src="images/arrow-left.png" class="prev" alt="Prev" style="width:60px;height:60px;">
+                  <div class="slider-inner">
+                    <img src="images/image1.jpg" class="active">
+                    <img src="images/image2.jpg">
+                    <img src="images/image3.jpg">
+                    <img src="images/image4.jpg">
+                    <img src="images/image5.jpg">
+                    <img src="images/image6.jpg">
+                  </div>
+                  <img src="images/arrow-right.png" class="next" alt="Next" style="width:60px;height:60px;"> 
+                </div>
+            </div>
+            <div class="item"><button style="width: 200px;" onclick="openWin()" class="button">Jelovnik</button>  </div> 
+        </div>
+        <div class="footer">
+                <h3>tel: 555-333</h3>
+                <h3>email: najboljepizzee@gmail.com</h3>
+                <p>&copy; Najbolje <strong style="color: green">PI</strong><strong style="color: white">ZZ</strong><strong style="color: red">EE</strong></p>   
+            </div>
+</body>
+<script type="text/javascript">
+function openWin() {
+    myWindow = window.open("cenovnik.html", "myWindow", "width=1500,height=1000");   
+}
+</script>
+</html>
